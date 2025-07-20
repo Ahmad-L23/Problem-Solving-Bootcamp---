@@ -26,10 +26,3 @@ Master essential algorithms and data structures in this comprehensive bootcamp d
 
 ---
 
-## Getting Started
-
-Clone the repo and start coding:
-
-```bash
-git clone https://github.com/yourusername/problem-solving-bootcamp.git
-cd problem-solving-bootcamp
