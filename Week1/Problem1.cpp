@@ -52,7 +52,7 @@ void printValues(const vector<int>& values) {
 
 int main() {
     int testCases = 3; // The initial value is 3 to demonstrate how call by reference works.
-                     // Try removing the call by reference to see that the input won’t affect the value and it will remain 3.
+                     // Try removing the call by reference to see that the input wonâ€™t affect the value and it will remain 3.
     readTestCases(testCases);
     vector<int> values = getUniqueValues(testCases);
     printValues(values);
