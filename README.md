@@ -57,13 +57,14 @@
     background: #3f47b5;
     padding: 0.75rem 1rem;
     border-radius: 12px;
-    transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease, transform 0.2s ease;
     cursor: default;
   }
 
   ul li:hover {
     background-color: #ff4b2b;
     color: #fff;
+    transform: scale(1.05);
   }
 
   .footer {
