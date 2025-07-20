@@ -44,7 +44,7 @@ vector<int> getUniqueValues(int testCases) {
 
 
 // Just to print the unique values by looping through the vector
-void printValues(const vector<int>& values) {
+void printValues(vector<int> values) {
     cout << "\nUnique values from each test case:\n";
     for (int i = 0; i < values.size(); ++i)
         cout << "Test Case " << i + 1 << ": " << values[i] << endl;
