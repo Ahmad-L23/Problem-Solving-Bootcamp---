@@ -31,7 +31,7 @@ vector<int> getUniqueValues(int testCases) {
             values.push_back(a);
 
         // Check if the value of (b) is not equal to the other two numbers if so it's unique.
-        else if (b != c && b != a)
+        else if (b != c)
             values.push_back(b);
 
         // In the first two checks, we know that a and b are not unique, so the unique one must be (c).
